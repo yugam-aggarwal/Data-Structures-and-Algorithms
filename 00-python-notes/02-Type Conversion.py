@@ -1,8 +1,7 @@
 #Type Conversion
 
 #Implicit Type Conversion
-#Implicit conversion is performed by the Python interpreter without the programmer’s intervention.
-#Python automatically converts one data type to another data type. This process doesn't need any user involvement.
+#Implicit conversion is performed by the Python interpreter without the programmer’s intervention. Python automatically converts one data type to another data type. This process doesn't need any user involvement.
 #For example:
 #Converting int to float, float to complex, etc.
 #Example:
@@ -31,11 +30,13 @@ print("Value of num_new:",num_new)
 print("datatype of num_new:",type(num_new))
 
 #Explicit Type Conversion
-#In Explicit Type Conversion, users convert the data type of an object to required data type. We use the predefined functions like int(), float(), str(), etc to perform explicit type conversion.
-#This type of conversion is also called typecasting because the user casts (changes) the data type of the objects.
+#In Explicit Type Conversion, users convert the data type of an object to required data type. We use the predefined functions like int(), float(), str(), etc to perform explicit type conversion. This type of conversion is also called typecasting because the user casts (changes) the data type of the objects.
+
 #Syntax:
 #<required_datatype>(expression)
+
 #Typecasting can be done by assigning the required data type function to the expression.
+
 #Example:
 #Converting string to integer
 num_int = 123
@@ -166,4 +167,4 @@ print("Data type of num_com:",type(num_com))
 num_str = str(num_com)
 print("Data type of num_str:",type(num_str))
 
-    
+
